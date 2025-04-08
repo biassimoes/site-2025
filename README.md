@@ -1,4 +1,4 @@
-# Site acessível sobre Menos é Mais
+# Site acessível sobre The Weeknd
 # Sobre
 Refatoração de um site implementando recursos de acessibilidade no html, css e JS.
 ## Recursos de acessibilidade

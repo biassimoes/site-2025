@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Olivia Rodrigo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo2.png" class="nav-img" loading="lazy" alt="Logo" style="width: 350px; height: auto;">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#albuns">Álbuns</a></li>
+                <li class="nav-item"><a class="nav-link" href="#musicas">Músicas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false" aria-label="Acessibilidade">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar contraste de cores"> <i class="bi bi-shadows"></i></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="img/logo1.png" class="mb-3" width="490" height="auto" loading="lazy" alt="Logo Olivia Rodrigo">
+                    <a href="#Olivia Rodrigo" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
+                </div>
+                <img src="img/olivia.png" alt="Olivia Rodrigo cantando" 
+     title="Olivia Rodrigo - Imagem de divulgação" 
+     class="img-fluid img-inicio" 
+     style="width: 319px; height: auto; position: relative; top: 22px; left: 0px;"> 
+            </div>
+        </section>
+
+        <section id="Olivia Rodrigo" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre Olivia Rodrigo">
+            <div class="container d-flex align-items-center">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="img/imagem.png" class="rounded-pill" width="273" height="331" loading="lazy" alt="Olivia Rodrigo em sessão de fotos">
+                </div>
+                <div class="col-5">
+                    <h2>Quem é Olivia Rodrigo?</h2>
+                    <p class="p-2">Olivia Rodrigo é uma cantora, compositora e atriz norte-americana que se destacou no cenário musical mundial a partir de 2021 com o lançamento do álbum "SOUR". Seu estilo mistura elementos do pop com influências do rock alternativo e punk, explorando temas como desilusões amorosas e amadurecimento. Além da música, Olivia também é conhecida por sua atuação em séries da Disney. Fonte: Revista Rolling Stone Brasil</p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/foto olivia 1.jpg" class="img-fluid rounded-5" loading="lazy" alt="Olivia Rodrigo segura um megafone vermelho e um microfone, com expressão forte e intensa. Ela veste uma regata branca e shorts brilhantes, com fundo rosa/roxo iluminado.">
+                            <figcaption>Olivia Rodrigo segura um megafone vermelho e um microfone, com expressão forte e intensa. Ela veste uma regata branca e shorts brilhantes, com fundo rosa/roxo iluminado.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/foto olivia 2.jpg" class="img-fluid rounded-5" loading="lazy" alt="Olivia canta com os olhos fechados, cercada por confetes em forma de estrela. Usa uma camiseta “DUMPLING HIM” e está envolvida pela energia da performance.">
+                            <figcaption>Olivia canta com os olhos fechados, cercada por confetes em forma de estrela. Usa uma camiseta “DUMPLING HIM” e está envolvida pela energia da performance.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-md-center">
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/foto olivia 3.jpg" class="img-fluid rounded-5" loading="lazy" alt="Olivia palco com um braço levantado, rodeada por confetes e luzes fortes, enquanto a plateia vibra ao fundo.">
+                            <figcaption>Olivia palco com um braço levantado, rodeada por confetes e luzes fortes, enquanto a plateia vibra ao fundo.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/foto olivia 4.jpg" class="img-fluid rounded-5" loading="lazy" alt="Olivia anda pelo palco sorridente, com roupa brilhante e fundo estrelado, transmitindo carisma e alegria.">
+                            <figcaption>Olivia anda pelo palco sorridente, com roupa brilhante e fundo estrelado, transmitindo carisma e alegria.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="albuns" class="container my-5">
+            <h2 class="text-center mb-4">Álbuns de Olivia Rodrigo</h2>
+            
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="img/sour.jpg" class="img-fluid rounded" alt="Capa do álbum SOUR">
+                </div>
+                <div class="col-md-8">
+                    <h3>SOUR (2021)</h3>
+                    <p>"SOUR" é o álbum de estreia de Olivia Rodrigo, lançado em 2021. O disco explora temas como desilusão amorosa, autodescoberta e emoções intensas da adolescência.</p>
+                    <ul class="row">
+                        <div class="col-md-6">
+                            <li>brutal</li>
+                            <li>traitor</li>
+                            <li>drivers license</li>
+                            <li>1 step forward, 3 steps back</li>
+                            <li>deja vu</li>
+                            <li>good 4 u</li>
+                        </div>
+                        <div class="col-md-6">
+                            <li>enough for you</li>
+                            <li>happier</li>
+                            <li>jealousy, jealousy</li>
+                            <li>favorite crime</li>
+                            <li>hope ur ok</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="img/guts.jpg" class="img-fluid rounded" alt="Capa do álbum GUTS">
+                </div>
+                <div class="col-md-8">
+                    <h3>GUTS (2023)</h3>
+                    <p>O segundo álbum de Olivia Rodrigo, "GUTS", foi lançado em 2023. Ele mantém sua abordagem emocional e sincera, explorando sua evolução artística e pessoal.</p>
+                    <ul class="row">
+                        <div class="col-md-6">
+                            <li>all-american bitch</li>
+                            <li>bad idea right?</li>
+                            <li>vampire</li>
+                            <li>lacy</li>
+                            <li>ballad of a homeschooled girl</li>
+                            <li>making the bed</li>
+                        </div>
+                        <div class="col-md-6">
+                            <li>logical</li>
+                            <li>get him back!</li>
+                            <li>love is embarrassing</li>
+                            <li>the grudge</li>
+                            <li>pretty isn’t pretty</li>
+                            <li>teenage dream</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="musicas">
+            <h2 class="text-center mb-4">Músicas de Olivia Rodrigo</h2>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>brutal</h3>
+                    <iframe width="80%" height="200"
+                        src="https://www.youtube.com/embed/OGUy2UmRxJ0" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>good 4 u</h3>
+                    <iframe width="80%" height="200"
+                        src="https://www.youtube.com/embed/gNi_6U5Pm_o" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>vampire</h3>
+                    <iframe width="80%" height="200"
+                        src="https://www.youtube.com/embed/RlPNh_PBZb4" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h3>deja vu</h3>
+                    <iframe width="80%" height="200"
+                        src="https://www.youtube.com/embed/cii6ruuycQA" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por João Braniak. Projeto fictício sem fins comerciais.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

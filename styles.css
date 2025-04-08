@@ -144,14 +144,14 @@ h2 {
 }
 
 .alto-contraste {
-    background-color: #4a0072; /* Roxo escuro para alto contraste */
+    background-color: #cd1010; /* vermelho para alto contraste */
     color: #f4ebf3;
 }
 
 .alto-contraste header,
 .alto-contraste footer,
 .alto-contraste .formulario {
-    background-color: #4a0072; /* Roxo escuro */
+    background-color: #cd1010; /* vermelho */
     color: #f4ebf3;
 }
 

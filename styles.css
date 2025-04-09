@@ -45,7 +45,7 @@ section {
 }
 
 .botao-inicio {
-    background-color: #6a2c91; /* Cor roxa para o botão */
+    background-color: #f3ff09; /* Cor roxa para o botão */
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -55,7 +55,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px #9b4dca; /* Sombras roxas */
+    text-shadow: -5px 5px #ddd60e; /* Sombras roxas */
 }
 
 #olivia {
@@ -80,7 +80,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: #6a2c91; /* Roxo para os títulos */
+    color: #ecd908; /* Roxo para os títulos */
 }
 
 #galeria {
